@@ -4,9 +4,7 @@ import (
 	"reflect"
 )
 
-/*
-Function StructToMap convert a struct to map and ignore nil value field
-*/
+// Function StructToMap convert a struct to map and ignore nil value field
 func StructToMap[T any](req T) map[string]interface{} {
 	// Get value slice
 	v := reflect.ValueOf(req)
