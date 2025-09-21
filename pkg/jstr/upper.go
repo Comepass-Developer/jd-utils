@@ -24,6 +24,7 @@ func Capitalize(s string) string {
 	return string(runes)
 }
 
+// Function to convert snake_case to class camelCase (e.g. "hello_world" -> "HelloWorld")
 func ClassCamel(s string) string {
 	var result string
 	comp := strings.Split(s, "_")
