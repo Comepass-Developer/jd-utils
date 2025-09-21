@@ -24,6 +24,15 @@ func Capitalize(s string) string {
 	return string(runes)
 }
 
+func ClassCamel(s string) string {
+	var result string
+	comp := strings.Split(s, "_")
+	for _, v := range comp {
+		result += Title(v)
+	}
+	return result
+}
+
 // Function to convert snake_case to variable camelCase (e.g. "hello_world" -> "helloWorld")
 func VariableCamel(s string) string {
 	var result string
