@@ -47,3 +47,8 @@ func VariableCamel(s string) string {
 	}
 	return result
 }
+
+// Function to convert string to lower case (e.g. "Hello World" -> "hello world")
+func Lower(s string) string {
+	return strings.ToLower(strings.TrimSpace(s))
+}
