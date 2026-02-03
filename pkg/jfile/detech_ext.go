@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ComepassDeveloper/jd-utils/pkg/jstr"
+	"github.com/Comepass-Developer/jd-utils/pkg/jstr"
 )
 
 func DetectFileType(fileHeader *multipart.FileHeader) (*string, *string) {

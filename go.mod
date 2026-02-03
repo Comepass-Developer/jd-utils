@@ -1,4 +1,4 @@
-module github.com/ComepassDeveloper/jd-utils
+module github.com/Comepass-Developer/jd-utils
 
 go 1.25.0
 
