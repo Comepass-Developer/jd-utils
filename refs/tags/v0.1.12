@@ -1,0 +1,6 @@
+object b1024a1a047f5ae454fd0f764e5a919fef800315
+type commit
+tag v0.1.12
+tagger Merlin Le <62027237+fxbite@users.noreply.github.com> 2026-02-04T03:45:00Z
+
+Fix module name to Comepass-Developer
